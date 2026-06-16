@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.6;
+  color: #374151;
+  background-color: #ffffff;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, 'Times New Roman', serif;
+}
+
+.btn-primary {
+  @apply bg-hks-red hover:bg-hks-red-dark text-white font-semibold py-3 px-8 rounded transition-all duration-300;
+}
+
+.btn-secondary {
+  @apply border-2 border-hks-red text-hks-red hover:bg-hks-red hover:text-white font-semibold py-3 px-8 rounded transition-all duration-300;
+}
+
+.section-title {
+  @apply text-3xl md:text-4xl font-serif font-bold text-hks-gray-dark mb-6;
+}
+
+.card {
+  @apply bg-white rounded-lg shadow-md hover:shadow-xl transition-shadow duration-300 p-6;
+}
