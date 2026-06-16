@@ -29,11 +29,11 @@
         <div>
           <h4 class="text-lg font-semibold text-hks-gold mb-4">Quick Links</h4>
           <ul class="space-y-2">
-            <li><a href="/" class="text-gray-300 hover:text-hks-gold transition-colors">Home</a></li>
-            <li><a href="/about-us" class="text-gray-300 hover:text-hks-gold transition-colors">About Us</a></li>
-            <li><a href="/investment-portfolio" class="text-gray-300 hover:text-hks-gold transition-colors">Investment Portfolio</a></li>
-            <li><a href="/csr-projects" class="text-gray-300 hover:text-hks-gold transition-colors">CSR Projects</a></li>
-            <li><a href="/contact-us" class="text-gray-300 hover:text-hks-gold transition-colors">Contact Us</a></li>
+            <li><router-link to="/" class="text-gray-300 hover:text-hks-gold transition-colors">Home</router-link></li>
+            <li><router-link to="/about-us" class="text-gray-300 hover:text-hks-gold transition-colors">About Us</router-link></li>
+            <li><router-link to="/investment-portfolio" class="text-gray-300 hover:text-hks-gold transition-colors">Investment Portfolio</router-link></li>
+            <li><router-link to="/csr-projects" class="text-gray-300 hover:text-hks-gold transition-colors">CSR Projects</router-link></li>
+            <li><router-link to="/contact-us" class="text-gray-300 hover:text-hks-gold transition-colors">Contact Us</router-link></li>
           </ul>
         </div>
         

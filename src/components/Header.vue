@@ -3,21 +3,21 @@
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center">
-          <a href="/" class="flex items-center space-x-2">
+          <router-link to="/" class="flex items-center space-x-2">
             <span class="text-2xl font-serif font-bold text-hks-red">Datang Capital</span>
-          </a>
+          </router-link>
         </div>
         
         <nav class="hidden md:flex items-center space-x-8">
-          <a 
+          <router-link 
             v-for="item in navItems" 
             :key="item.name"
-            :href="item.path"
+            :to="item.path"
             class="text-hks-gray-dark hover:text-hks-red font-medium transition-colors duration-200"
             :class="{ 'text-hks-red': $route.name === item.name }"
           >
             {{ item.label }}
-          </a>
+          </router-link>
         </nav>
         
         <button 
@@ -36,15 +36,15 @@
       class="md:hidden bg-white border-t border-gray-200"
     >
       <nav class="px-4 py-4 space-y-3">
-        <a 
+        <router-link 
           v-for="item in navItems" 
           :key="item.name"
-          :href="item.path"
+          :to="item.path"
           class="block py-2 text-hks-gray-dark hover:text-hks-red font-medium"
           @click="isMenuOpen = false"
         >
           {{ item.label }}
-        </a>
+        </router-link>
       </nav>
     </div>
   </header>
