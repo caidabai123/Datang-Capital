@@ -113,10 +113,8 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="bg-hks-beige rounded-lg p-8">
-            <div class="w-36 h-36 bg-hks-red rounded-full flex items-center justify-center mx-auto mb-6 overflow-visible">
-              <svg class="h-18 w-18 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
-              </svg>
+            <div class="w-36 h-36 rounded-full mx-auto mb-6 overflow-hidden border-4 border-hks-gold">
+              <img src="https://neeko-copilot.bytedance.net/api/text2image?prompt=professional%20asian%20businessman%20portrait%20headshot%20formal%20suit%20glasses%20confident%20smile%20white%20background&image_size=square" alt="Dezhi LI" class="w-full h-full object-cover" />
             </div>
             <h3 class="text-2xl font-serif font-bold text-hks-gray-dark text-center mb-4">Dezhi LI</h3>
             <p class="text-gray-600 text-center">Australian JP & Multi-National Licensed Migration Agent</p>
