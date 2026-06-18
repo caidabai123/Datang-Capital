@@ -113,8 +113,8 @@
         </div>
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div class="bg-hks-beige rounded-lg p-8">
-            <div class="w-36 h-36 rounded-full mx-auto mb-6 overflow-hidden border-4 border-hks-gold">
-              <img src="https://neeko-copilot.bytedance.net/api/text2image?prompt=professional%20asian%20businessman%20portrait%20headshot%20formal%20suit%20glasses%20confident%20smile%20white%20background&image_size=square" alt="Dezhi LI" class="w-full h-full object-cover" />
+            <div class="w-36 h-36 rounded-full mx-auto mb-6 overflow-hidden border-4 border-hks-red">
+              <img src="../images/image.png" alt="Dezhi LI" class="w-full h-full object-cover" />
             </div>
             <h3 class="text-2xl font-serif font-bold text-hks-gray-dark text-center mb-4">Dezhi LI</h3>
             <p class="text-gray-600 text-center">Australian JP & Multi-National Licensed Migration Agent</p>
