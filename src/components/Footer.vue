@@ -63,8 +63,14 @@
         </div>
       </div>
       
-      <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
-        <p>&copy; 2020 Datang Capital Pty Ltd. All rights reserved.</p>
+      <div class="border-t border-gray-700 mt-8 pt-8">
+        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
+          <p class="text-gray-400">&copy; 2020 Datang Capital Pty Ltd. All rights reserved.</p>
+          <div class="flex space-x-6">
+            <router-link to="/privacy-policy" class="text-gray-400 hover:text-hks-gold transition-colors text-sm">Privacy Policy</router-link>
+            <router-link to="/disclaimer" class="text-gray-400 hover:text-hks-gold transition-colors text-sm">Disclaimer</router-link>
+          </div>
+        </div>
       </div>
     </div>
   </footer>

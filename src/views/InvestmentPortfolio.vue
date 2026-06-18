@@ -54,10 +54,10 @@
                 </svg>
               </div>
               <div class="flex-1">
-                <h3 class="text-xl font-serif font-bold text-hks-gray-dark mb-2">TOP Wise Choice & Choice SimpliHire</h3>
-                <p class="text-gray-500 text-sm mb-3">International Career & HR Services</p>
+                <h3 class="text-xl font-serif font-bold text-hks-gray-dark mb-2">TOP Wise Choice</h3>
+                <p class="text-gray-500 text-sm mb-3">Employer Services</p>
                 <p class="text-gray-600 leading-relaxed">
-                  Dual-brand human resources company specializing in international internships and career placement services, connecting global talent with international employment opportunities across multiple industries.
+                  A premium HR service provider dedicated to helping employers find and recruit top international talent. We offer comprehensive staffing solutions, talent sourcing, and HR consulting services to companies worldwide.
                 </p>
               </div>
             </div>
@@ -71,6 +71,23 @@
                 </svg>
               </div>
               <div class="flex-1">
+                <h3 class="text-xl font-serif font-bold text-hks-gray-dark mb-2">Choice SimpliHire</h3>
+                <p class="text-gray-500 text-sm mb-3">Candidate Services</p>
+                <p class="text-gray-600 leading-relaxed">
+                  A professional career placement platform for job seekers. We connect talented individuals with international employment opportunities, providing resume optimization, interview preparation, and personalized career guidance to help candidates achieve their professional goals.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="flex items-start space-x-4">
+              <div class="flex-shrink-0 w-20 h-20 bg-hks-red rounded-lg flex items-center justify-center overflow-visible">
+                <svg class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <div class="flex-1">
                 <h3 class="text-xl font-serif font-bold text-hks-gray-dark mb-2">Your Choice</h3>
                 <p class="text-gray-500 text-sm mb-3">Non-Profit Youth Cultural Exchange</p>
                 <p class="text-gray-600 leading-relaxed">
@@ -80,7 +97,7 @@
             </div>
           </div>
 
-          <div class="card lg:col-span-2">
+          <div class="card">
             <div class="flex items-start space-x-4">
               <div class="flex-shrink-0 w-20 h-20 bg-hks-red rounded-lg flex items-center justify-center overflow-visible">
                 <svg class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">

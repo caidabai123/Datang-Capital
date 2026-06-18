@@ -102,14 +102,11 @@
               <div class="space-y-2 text-gray-600">
                 <div class="flex justify-between">
                   <span>Monday - Friday</span>
-                  <span>9:00 AM - 5:00 PM AEST</span>
+                  <span>10:00 AM - 5:00 PM AEST</span>
                 </div>
+                
                 <div class="flex justify-between">
-                  <span>Saturday</span>
-                  <span>10:00 AM - 2:00 PM AEST</span>
-                </div>
-                <div class="flex justify-between">
-                  <span>Sunday</span>
+                  <span>Saturday&Sunday</span>
                   <span>By appointment</span>
                 </div>
               </div>

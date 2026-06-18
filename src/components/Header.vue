@@ -63,7 +63,7 @@ const navItems = [
   { name: 'Home', label: 'Home', path: '/' },
   { name: 'AboutUs', label: 'About Us', path: '/about-us' },
   { name: 'InvestmentPortfolio', label: 'Investment Portfolio', path: '/investment-portfolio' },
-  { name: 'CSRProjects', label: 'CSR & Global Youth Exchange Projects', path: '/csr-projects' },
+  //{ name: 'CSRProjects', label: 'CSR & Global Youth Exchange Projects', path: '/csr-projects' },
   { name: 'IndustryInsights', label: 'Industry Insights', path: '/industry-insights' },
   { name: 'ContactUs', label: 'Contact Us', path: '/contact-us' }
 ]

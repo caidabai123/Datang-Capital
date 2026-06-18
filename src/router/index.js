@@ -5,6 +5,8 @@ import InvestmentPortfolio from '../views/InvestmentPortfolio.vue'
 import CSRProjects from '../views/CSRProjects.vue'
 import IndustryInsights from '../views/IndustryInsights.vue'
 import ContactUs from '../views/ContactUs.vue'
+import PrivacyPolicy from '../views/PrivacyPolicy.vue'
+import Disclaimer from '../views/Disclaimer.vue'
 
 const routes = [
   {
@@ -36,6 +38,16 @@ const routes = [
     path: '/contact-us',
     name: 'ContactUs',
     component: ContactUs
+  },
+  {
+    path: '/privacy-policy',
+    name: 'PrivacyPolicy',
+    component: PrivacyPolicy
+  },
+  {
+    path: '/disclaimer',
+    name: 'Disclaimer',
+    component: Disclaimer
   }
 ]
 

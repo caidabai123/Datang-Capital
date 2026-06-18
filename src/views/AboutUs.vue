@@ -8,8 +8,71 @@
         </p>
       </div>
     </section>
-
+    <section class="py-16 md:py-20 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <p class="text-2xl md:text-3xl font-serif italic text-hks-gray-dark max-w-3xl mx-auto">
+            "Build Global Bridges for Youth, Advance Cross-Border Public Exchange via Industrial Practice"
+          </p>
+        </div>
+      </div>  
+    </section>
     <section class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <h2 class="section-title text-center mb-12">Our Corporate Values</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-hks-red rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-lg">1</span>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-hks-gray-dark mb-2">Public-Oriented Investment</h3>
+              <p class="text-gray-600">
+                Industry investment oriented towards public good, addressing real cross-border pain points for global youth
+              </p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-hks-red rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-lg">2</span>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-hks-gray-dark mb-2">Regulatory Compliance</h3>
+              <p class="text-gray-600">
+                Full business compliance operation, adhering to regulations across jurisdictions with founder's multi-country licenses and JP qualification
+              </p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-hks-red rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-lg">3</span>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-hks-gray-dark mb-2">Public Welfare Embedded Operation</h3>
+              <p class="text-gray-600">
+                Business model embedded with public welfare attributes, using operational proceeds to support disadvantaged youth and community services
+              </p>
+            </div>
+          </div>
+          
+          <div class="flex items-start space-x-4">
+            <div class="flex-shrink-0 w-12 h-12 bg-hks-red rounded-full flex items-center justify-center">
+              <span class="text-white font-bold text-lg">4</span>
+            </div>
+            <div>
+              <h3 class="text-lg font-semibold text-hks-gray-dark mb-2">Technology Empowerment for Public Good</h3>
+              <p class="text-gray-600">
+                Technology for good, leveraging Choose Pty Ltd's proprietary AI to reduce cross-border development costs for global youth
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="py-16 md:py-18 bg-white">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
           <div>
@@ -59,7 +122,7 @@
         </div>
       </div>
     </section>
-
+    
     <section class="py-16 md:py-24 bg-hks-gray-light">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center mb-12">
