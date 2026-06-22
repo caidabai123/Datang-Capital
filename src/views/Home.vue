@@ -6,7 +6,7 @@
           <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-hks-gray-dark mb-6">
             Datang Capital Pty Ltd
           </h1>
-          <p class="text-xl md:text-2xl text-hks-gray mb-4 max-w-3xl mx-auto">
+          <p class="text-lg md:text-xl lg:text-2xl text-hks-gray mb-4 whitespace-nowrap overflow-hidden text-ellipsis">
             Industrial Contribution to Global Youth Cross-Border Development & Cultural Exchange
           </p>
           

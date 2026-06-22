@@ -4,6 +4,7 @@
       <div class="flex justify-between items-center h-16">
         <div class="flex items-center">
           <router-link to="/" class="flex items-center space-x-2">
+            <img src="../images/logo.png" alt="Datang Capital Logo" class="h-20 w-auto" />
             <span class="text-2xl font-serif font-bold text-hks-red">Datang Capital</span>
           </router-link>
         </div>
