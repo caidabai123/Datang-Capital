@@ -91,7 +91,7 @@
                   </svg>
                   <div>
                     <p class="text-gray-800 font-medium">Phone</p>
-                    <p class="text-gray-600 text-sm">+61 2 1234 5678</p>
+                    <p class="text-gray-600 text-sm">+61 2 8211 0688</p>
                   </div>
                 </div>
               </div>

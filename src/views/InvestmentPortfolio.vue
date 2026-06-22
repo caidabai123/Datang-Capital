@@ -14,11 +14,9 @@
         <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
           <div class="card">
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-20 h-20 bg-hks-red rounded-lg flex items-center justify-center overflow-visible">
-                <svg class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
-                </svg>
-              </div>
+              <a href="https://www.nztnc.com/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 w-20 h-20 bg-hks-red rounded-lg flex items-center justify-center overflow-hidden hover:ring-2 hover:ring-hks-gold transition-all duration-200">
+                <img src="../images/TNC.png" alt="TNC Logo" class="w-full h-full object-cover" />
+              </a>
               <div class="flex-1">
                 <h3 class="text-xl font-serif font-bold text-hks-gray-dark mb-2">Top New Channel</h3>
                 <p class="text-gray-500 text-sm mb-3">Global Study Abroad Services</p>
@@ -31,11 +29,9 @@
 
           <div class="card">
             <div class="flex items-start space-x-4">
-              <div class="flex-shrink-0 w-20 h-20 bg-hks-red rounded-lg flex items-center justify-center overflow-visible">
-                <svg class="h-10 w-10 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 21l1.65-3.8a9 9 0 113.4 2.9L3 21" />
-                </svg>
-              </div>
+              <a href="http://www.aolidagroup.com/" target="_blank" rel="noopener noreferrer" class="flex-shrink-0 w-20 h-20 bg-hks-red rounded-lg flex items-center justify-center overflow-hidden hover:ring-2 hover:ring-hks-gold transition-all duration-200">
+                <img src="../images/LS.png" alt="LS Logo" class="w-full h-full object-cover" />
+              </a>
               <div class="flex-1">
                 <h3 class="text-xl font-serif font-bold text-hks-gray-dark mb-2">Aolida Migration&Visa</h3>
                 <p class="text-gray-500 text-sm mb-3">Professional Visa Services</p>
