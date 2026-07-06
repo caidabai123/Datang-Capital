@@ -1,16 +1,16 @@
 <template>
-  <div class="pt-16">
-    <section class="relative bg-hks-beige py-20 md:py-32">
+  <div class="pt-12 sm:pt-14 md:pt-16 lg:pt-20">
+    <section class="relative bg-hks-beige py-12 md:py-20 lg:py-32">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div class="text-center">
-          <h1 class="text-4xl md:text-5xl lg:text-6xl font-serif font-bold text-hks-gray-dark mb-6">
+          <h1 class="text-2xl sm:text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-serif font-bold text-hks-gray-dark mb-4 md:mb-6">
             Datang Capital Pty Ltd
           </h1>
-          <p class="text-lg md:text-xl lg:text-2xl text-hks-gray mb-4 whitespace-nowrap overflow-hidden text-ellipsis">
+          <p class="text-sm sm:text-base md:text-lg lg:text-xl text-hks-gray mb-6 md:mb-8 max-w-2xl mx-auto leading-relaxed">
             Industrial Contribution to Global Youth Cross-Border Development & Cultural Exchange
           </p>
           
-          <a href="/investment-portfolio" class="btn-primary inline-block">
+          <a href="/investment-portfolio" class="btn-primary inline-block px-6 md:px-8">
             View Our Invested Enterprises
           </a>
         </div>

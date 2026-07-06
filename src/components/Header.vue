@@ -1,11 +1,11 @@
 <template>
   <header class="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
     <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-      <div class="flex justify-between items-center h-16">
+      <div class="flex justify-between items-center h-12 sm:h-14 md:h-16 lg:h-20">
         <div class="flex items-center">
           <router-link to="/" class="flex items-center space-x-2">
-            <img src="../images/logo.png" alt="Datang Capital Logo" class="h-20 w-auto" />
-            <span class="text-2xl font-serif font-bold text-hks-red">Datang Capital</span>
+            <img src="../images/logo.png" alt="Datang Capital Logo" class="h-10 sm:h-12 md:h-16 lg:h-20 w-auto" />
+            <span class="text-sm sm:text-base md:text-lg lg:text-xl font-serif font-bold text-hks-red">Datang Capital</span>
           </router-link>
         </div>
         

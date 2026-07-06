@@ -1,5 +1,5 @@
 <template>
-  <div class="pt-16">
+  <div class="pt-12 sm:pt-14 md:pt-16 lg:pt-20">
     <section class="bg-hks-beige py-16 md:py-24">
       <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 class="section-title text-center">Contact Us</h1>
