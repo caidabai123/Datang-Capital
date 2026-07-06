@@ -208,5 +208,129 @@
         </div>
       </div>
     </section>
+
+    <section class="py-16 md:py-24 bg-hks-gray-light">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Licenses & Certifications</h2>
+          <p class="text-gray-600">Verifiable credentials demonstrating our compliance and expertise</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div class="card text-center">
+            <div class="w-16 h-16 bg-hks-red rounded-full flex items-center justify-center mx-auto mb-4 overflow-visible">
+              <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-serif font-bold text-hks-gray-dark mb-2">MARA Registration</h3>
+            <p class="text-hks-red font-semibold text-sm mb-2">License No: [MARA Number]</p>
+            <p class="text-gray-600 text-sm">Registered Migration Agent with the Migration Agents Registration Authority</p>
+          </div>
+          <div class="card text-center">
+            <div class="w-16 h-16 bg-hks-gold rounded-full flex items-center justify-center mx-auto mb-4 overflow-visible">
+              <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-serif font-bold text-hks-gray-dark mb-2">Justice of the Peace</h3>
+            <p class="text-hks-red font-semibold text-sm mb-2">Commission No: [JP Number]</p>
+            <p class="text-gray-600 text-sm">Appointed Justice of the Peace for New South Wales, Australia</p>
+          </div>
+          <div class="card text-center">
+            <div class="w-16 h-16 bg-hks-brown rounded-full flex items-center justify-center mx-auto mb-4 overflow-visible">
+              <svg class="h-8 w-8 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <h3 class="text-lg font-serif font-bold text-hks-gray-dark mb-2">Business Registration</h3>
+            <p class="text-hks-red font-semibold text-sm mb-2">ABN: [ABN Number]</p>
+            <p class="text-gray-600 text-sm">Registered Australian Business Number for Datang Capital Pty Ltd</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Partners & Affiliations</h2>
+          <p class="text-gray-600">Trusted by organizations and institutions worldwide</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-6">
+          <div v-for="i in 6" :key="i" class="bg-hks-gray-light rounded-lg p-4 flex items-center justify-center aspect-video">
+            <span class="text-gray-400 text-sm font-medium">Partner {{ i }}</span>
+          </div>
+        </div>
+        <p class="text-center text-gray-500 text-sm mt-6">Add your partner logos here</p>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-hks-beige">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Client Testimonials</h2>
+          <p class="text-gray-600">Real stories from our satisfied clients</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div class="card">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-hks-red rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h4 class="font-semibold text-hks-gray-dark">Client Name</h4>
+                <p class="text-gray-500 text-sm">Service Type</p>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "The professional service and expertise provided by Datang Capital team was exceptional. They guided me through every step of the process with patience and care."
+            </p>
+            <div class="flex mt-4">
+              <span v-for="star in 5" :key="star" class="text-hks-gold">★</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-hks-red rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h4 class="font-semibold text-hks-gray-dark">Client Name</h4>
+                <p class="text-gray-500 text-sm">Service Type</p>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "Thanks to their comprehensive support, I successfully secured my student visa and started my studies in Australia. Highly recommended!"
+            </p>
+            <div class="flex mt-4">
+              <span v-for="star in 5" :key="star" class="text-hks-gold">★</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="flex items-center mb-4">
+              <div class="w-12 h-12 bg-hks-red rounded-full flex items-center justify-center flex-shrink-0">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                </svg>
+              </div>
+              <div class="ml-4">
+                <h4 class="font-semibold text-hks-gray-dark">Client Name</h4>
+                <p class="text-gray-500 text-sm">Service Type</p>
+              </div>
+            </div>
+            <p class="text-gray-600 italic">
+              "The team's knowledge of migration law and attention to detail made the entire process smooth and stress-free. Five stars!"
+            </p>
+            <div class="flex mt-4">
+              <span v-for="star in 5" :key="star" class="text-hks-gold">★</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
   </div>
 </template>

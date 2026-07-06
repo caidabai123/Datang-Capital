@@ -64,8 +64,15 @@
       </div>
       
       <div class="border-t border-gray-700 mt-8 pt-8">
-        <div class="flex flex-col md:flex-row justify-between items-center space-y-4 md:space-y-0">
-          <p class="text-gray-400">&copy; 2020 Datang Capital Pty Ltd. All rights reserved.</p>
+        <div class="flex flex-col lg:flex-row justify-between items-center space-y-4 lg:space-y-0">
+          <div class="text-center lg:text-left">
+            <p class="text-gray-400">&copy; 2020 Datang Capital Pty Ltd. All rights reserved.</p>
+            <div class="flex flex-wrap justify-center lg:justify-start gap-4 mt-2 text-sm text-gray-500">
+              <span>ABN: [Your ABN Number]</span>
+              <span>|</span>
+              <span>ACN: [Your ACN Number]</span>
+            </div>
+          </div>
           <div class="flex space-x-6">
             <router-link to="/privacy-policy" class="text-gray-400 hover:text-hks-gold transition-colors text-sm">Privacy Policy</router-link>
             <router-link to="/disclaimer" class="text-gray-400 hover:text-hks-gold transition-colors text-sm">Disclaimer</router-link>

@@ -85,6 +85,98 @@
       </div>
     </section>
 
-    
+    <section class="py-16 md:py-24 bg-white">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Trusted & Verified</h2>
+          <p class="text-gray-600">Official registrations and professional certifications</p>
+        </div>
+        <div class="grid grid-cols-2 md:grid-cols-4 gap-6">
+          <div class="card text-center p-6">
+            <div class="w-14 h-14 bg-hks-red rounded-full flex items-center justify-center mx-auto mb-3 overflow-visible">
+              <svg class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-hks-gray-dark text-sm">MARA Registered</h3>
+          </div>
+          <div class="card text-center p-6">
+            <div class="w-14 h-14 bg-hks-gold rounded-full flex items-center justify-center mx-auto mb-3 overflow-visible">
+              <svg class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 10v6m0 0l-3-3m3 3l3-3m2 8H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-hks-gray-dark text-sm">Justice of Peace</h3>
+          </div>
+          <div class="card text-center p-6">
+            <div class="w-14 h-14 bg-hks-brown rounded-full flex items-center justify-center mx-auto mb-3 overflow-visible">
+              <svg class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-hks-gray-dark text-sm">ABN Registered</h3>
+          </div>
+          <div class="card text-center p-6">
+            <div class="w-14 h-14 bg-hks-red rounded-full flex items-center justify-center mx-auto mb-3 overflow-visible">
+              <svg class="h-7 w-7 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 10h4.764a2 2 0 011.789 2.894l-3.5 7A2 2 0 0115.263 21h-4.017c-.163 0-.326-.02-.485-.06L7 20m7-10V5a2 2 0 00-2-2h-.095c-.5 0-.905.405-.905.905 0 .714-.211 1.412-.608 2.006L7 11v9m7-10h-2M7 20H5a2 2 0 01-2-2v-6a2 2 0 012-2h2.5" />
+              </svg>
+            </div>
+            <h3 class="font-semibold text-hks-gray-dark text-sm">Professional Standards</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-16 md:py-24 bg-hks-gray-light">
+      <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+        <div class="text-center mb-12">
+          <h2 class="section-title">Media & Publications</h2>
+          <p class="text-gray-600">Featured in industry publications and news media</p>
+        </div>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <a href="#" class="card group hover:-translate-y-1 transition-transform duration-300">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-hks-red rounded-lg flex items-center justify-center flex-shrink-0 overflow-visible">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold text-hks-gray-dark group-hover:text-hks-red transition-colors">Global Youth Mobility Report 2024</h3>
+                <p class="text-gray-500 text-sm">Published: [Media Name]</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card group hover:-translate-y-1 transition-transform duration-300">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-hks-red rounded-lg flex items-center justify-center flex-shrink-0 overflow-visible">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold text-hks-gray-dark group-hover:text-hks-red transition-colors">Interview with Founder Dezhi LI</h3>
+                <p class="text-gray-500 text-sm">Featured: [Media Name]</p>
+              </div>
+            </div>
+          </a>
+          <a href="#" class="card group hover:-translate-y-1 transition-transform duration-300">
+            <div class="flex items-center space-x-4">
+              <div class="w-12 h-12 bg-hks-red rounded-lg flex items-center justify-center flex-shrink-0 overflow-visible">
+                <svg class="h-6 w-6 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253" />
+                </svg>
+              </div>
+              <div>
+                <h3 class="font-semibold text-hks-gray-dark group-hover:text-hks-red transition-colors">CSR Impact Report 2023</h3>
+                <p class="text-gray-500 text-sm">Published: [Media Name]</p>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
   </div>
 </template>
