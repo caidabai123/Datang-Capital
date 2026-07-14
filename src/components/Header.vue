@@ -34,14 +34,14 @@
     
     <div 
       v-show="isMenuOpen"
-      class="md:hidden bg-white border-t border-gray-200"
+      class="md:hidden fixed top-full left-0 right-0 bg-white border-t border-gray-200 shadow-lg z-40"
     >
       <nav class="px-4 py-4 space-y-3">
         <router-link 
           v-for="item in navItems" 
           :key="item.name"
           :to="item.path"
-          class="block py-2 text-hks-gray-dark hover:text-hks-red font-medium"
+          class="block py-2 px-4 text-hks-gray-dark hover:text-hks-red hover:bg-hks-gray-light font-medium rounded-lg transition-colors"
           @click="isMenuOpen = false"
         >
           {{ item.label }}
