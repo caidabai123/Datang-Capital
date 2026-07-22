@@ -9,7 +9,7 @@
           </router-link>
         </div>
         
-        <nav class="hidden md:flex items-center space-x-8">
+        <nav class="hidden md:flex items-center space-x-6">
           <router-link 
             v-for="item in navItems" 
             :key="item.name"
@@ -21,14 +21,23 @@
           </router-link>
         </nav>
         
-        <button 
-          class="md:hidden p-2 rounded-md text-hks-gray-dark hover:text-hks-red hover:bg-hks-gray-light transition-colors"
-          @click="toggleMenu"
-        >
-          <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
-          </svg>
-        </button>
+        <div class="flex items-center space-x-2">
+          <button 
+            @click="toggleLanguage"
+            class="hidden md:block px-4 py-2 border border-hks-red text-hks-red hover:bg-hks-red hover:text-white font-medium rounded-lg transition-colors duration-200 text-sm"
+          >
+            {{ currentLanguage === 'en' ? '中文' : 'EN' }}
+          </button>
+          
+          <button 
+            class="md:hidden p-2 rounded-md text-hks-gray-dark hover:text-hks-red hover:bg-hks-gray-light transition-colors"
+            @click="toggleMenu"
+          >
+            <svg class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+            </svg>
+          </button>
+        </div>
       </div>
     </div>
     
@@ -46,6 +55,13 @@
         >
           {{ item.label }}
         </router-link>
+        
+        <button 
+          @click="toggleLanguage"
+          class="w-full mt-4 px-4 py-3 border border-hks-red text-hks-red hover:bg-hks-red hover:text-white font-medium rounded-lg transition-colors duration-200"
+        >
+          {{ currentLanguage === 'en' ? '中文' : 'EN' }}
+        </button>
       </nav>
     </div>
   </header>
@@ -55,9 +71,14 @@
 import { ref } from 'vue'
 
 const isMenuOpen = ref(false)
+const currentLanguage = ref('en')
 
 const toggleMenu = () => {
   isMenuOpen.value = !isMenuOpen.value
+}
+
+const toggleLanguage = () => {
+  currentLanguage.value = currentLanguage.value === 'en' ? 'zh' : 'en'
 }
 
 const navItems = [
